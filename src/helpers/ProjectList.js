@@ -1,39 +1,33 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import Proj1 from "../assets/proj1.png";
+import Proj2 from "../assets/proj2.png";
+import Proj3 from "../assets/proj3.png";
+import Proj4 from "../assets/proj4.png";
+
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "Email Generator",
+    url: "/email",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    description: "This email generator can help you craft professional and effective emails effortlessly.  Powered by GPT-3,  itcan generate emails for you in mere seconds. Simply input the recipient's name, a summary of the email, and the desired tone, and it will take care of the rest!",
   },
   {
-    name: "Ecommerce Website",
+    name: "Chatbot",
+    url: "/chat",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    description: "Stuck on what to do next? This chatbot is here to provide you with helpful advice! Simply ask our intelligent chatbot for guidance, and it will provide you with general advice to help you move forward.",
   },
   {
-    name: "Spotify Clone",
+    name: "Proof Reader",
+    url: "/proofreader",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    description: "Proofread your essays with just a few clicks. Simply enter your essay and this proofreader can help you catch errors and suggest improvements to make your writing shine.",
   },
   {
-    name: "Social Media Website",
+    name: "More to come ...",
+    url: "/",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    description: "",
   },
-  {
-    name: "Dashboard Visualizer",
-    image: Proj5,
-    skills: "JavaScript,HTML,CSS",
-  },
-  {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
-  },
+  
 ];

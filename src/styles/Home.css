@@ -1,6 +1,7 @@
 .home {
   width: 100%;
-  align-items: center;
+  align-items: center; 
+  /* options include: flex-start, flex-end, center, space-between, space-around, stretch */
   font-family: "Arial", sans-serif;
   color: #3e497a;
 }
@@ -34,20 +35,21 @@
   color: white;
 }
 
-.skills {
+.projects {
   font-size: 35px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
+
   flex-direction: column;
   align-items: center;
 }
 
-.skills h1 {
+.projects h1 {
   color: #3e497a;
 }
 
-.skills .list {
+.projects .list {
   list-style: none;
   width: 60%;
 }
@@ -55,7 +57,9 @@
 .list span {
   font-size: 20px;
 }
-
+/* This media query is used to target devices with a maximum screen width of 600px. 
+Any styling within this query will only apply on devices with a maximum screen width of 600px,
+ allowing you to create a custom mobile-friendly experience. */
 @media only screen and (max-width: 600px) {
   .about h2 {
     font-size: 40px;
@@ -67,14 +71,14 @@
     width: 80%;
   }
 
-  .skills {
+  .projects {
     text-align: center;
   }
   .list {
     padding: 0;
   }
 
-  .skills h2 {
+  .projects h2 {
     font-size: 30px;
   }
 }

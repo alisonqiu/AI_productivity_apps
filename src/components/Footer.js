@@ -7,14 +7,14 @@ import "../styles/Footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" name = "Footer">
       <div className="socialMedia">
         <InstagramIcon />
         <TwitterIcon />
         <FacebookIcon />
         <LinkedInIcon />
       </div>
-      <p> &copy; 2022 pedrotech.com</p>
+      <p> &copy; built by Alison Qiu using OpenAI</p>
     </div>
   );
 }

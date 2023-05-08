@@ -1,0 +1,48 @@
+.container {
+        display: flex;
+        flex-direction: column;
+}
+.container .title {
+        text-align: center;
+        color: #3e497a;
+        font-size: 50px;
+        font-weight: bolder;
+}
+      
+.chatbox {
+        flex-grow: 1;
+        overflow-y: scroll;
+        padding: 1rem;
+}
+
+.chatbox p {
+        margin: 0.5rem 0;
+}
+
+.input-box {
+        display: flex;
+        margin-top: 1rem;
+}
+
+.input-box input {
+        flex-grow: 1;
+        padding: 0.5rem;
+        font-size: 1rem;
+        border: none;
+        border-bottom: 2px solid #ddd;
+        margin-right: 1rem;
+}
+
+.input-box button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 0.25rem;
+        cursor: pointer;
+}
+
+.input-box button:hover {
+        background-color: #0069d9;
+}
